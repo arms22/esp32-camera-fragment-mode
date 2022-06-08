@@ -155,6 +155,8 @@ typedef struct {
 #endif
 
     int sccb_i2c_port;              /*!< If pin_sccb_sda is -1, use the already configured I2C bus by number */
+    bool fragment_mode;
+    bool zero_padding;
 } camera_config_t;
 
 /**
