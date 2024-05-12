@@ -124,8 +124,6 @@ typedef struct {
     size_t fb_count;                /*!< Number of frame buffers to be allocated. If more than one, then each frame will be acquired (double speed)  */
     camera_fb_location_t fb_location; /*!< The location where the frame buffer will be allocated */
     camera_grab_mode_t grab_mode;   /*!< When buffers should be filled */
-    bool fragment_mode;
-    bool zero_padding;
 } camera_config_t;
 
 /**
